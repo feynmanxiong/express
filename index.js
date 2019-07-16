@@ -37,7 +37,7 @@ app.post('/comments/new', (req, res) => {
         comment: req.body.comment,
         created_at: new Date()
     })
-    console.log(comments)
+    console.log('comments')
     res.redirect('/comments')
 })
 
